@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>The NYC Cat Map</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="Oswald" />
+    </head>
+    <body>
+        <!-- Referenced W3 Schools for drop down build out -->
+        <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="tnr.html">TNR</a>
+  </div>
+</div>
+        <h1>The NYC Cat Map</h1>
+        <h2>The unofficial guide to NYC cat rescues (or just Brooklyn for now)</h2>
+        <p>So you found a cat in need - what now?</p>
+        <img src="images/img_8233.jpg" alt="orange kittens"/>
+        <h3>Find Your Rescue</h3>
+        <div>
+            <table>
+                <tr>
+                    <th>Rescue Organization</th>
+                    <th>Neighborhood</th>
+                </tr>
+                <tr>
+                    <td><a href="https://bushwickstreetcats.org/" target="_blank">Bushwick Street Cats</a></td>
+                    <td>Bushwick</td>
+                </tr>
+                <tr>
+                    <td><a href="https://northbrooklyncats.org/" target="_blank">North Brooklyn Cats</a></td>
+                    <td>Williamsburg</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.greenpointcats.org/" target="_blank">Greenpoint Cats</a></td>
+                    <td>Greenpoint</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.flatbushcats.org/" target="_blank">Flatbush Cats</a></td>
+                    <td>Flatbush</td>
+                </tr>
+                <tr>
+                    <td><a href="https://parkslopecats.org/" target="_blank">Park Slope Cats</a></td>
+                    <td>Park Slope</td>
+                </tr>
+                <tr>
+                    <td><a href="https://ittybittykittyny.org/" target="_blank">Itty Bitty Kitty</a></td>
+                    <td>Bay Ridge</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.sunsetparkcats.org/" target="_blank">Sunset Park Cats</a></td>
+                    <td>Sunset Park</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.backyardcatsofbedstuy.com/" target="_blank">Backyard Cats of Bed-Stuy</a>
+                    </td>
+                    <td>Bedford-Stuyvesant</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.whiskers-agogo.org/" target="_blank">Whiskers-A-GoGo</a></td>
+                    <td>Williamsburg & Greenpoint</td>
+                </tr>
+            </table>
+        </div>
+            Not sure of the neighborhood? Check here: <br />
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96873.51594095698!2d-74.03960998499586!3d40.64537482088299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY!5e0!3m2!1sen!2sus!4v1761430523741!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Map of Brooklyn"></iframe>
+        <footer>© Alyssa Craig 2025</footer>
+        <script>
+        function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+        }
+        </script>
+    </body>
+</html>

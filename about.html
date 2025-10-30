@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>About Page</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="Oswald" />
+    </head>
+    <body>
+        <!-- Referenced W3 Schools for drop down build out -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="tnr.html">TNR</a>
+            </div>
+        </div>
+        <h1>The NYC Cat Map</h1>
+        <h2>About</h2>
+        <p>
+            New York City has an abundance of cats on the street. This is a combination of stray or abandoned cats,
+            feral cats, and community TNR'd cats. However, the city does not have a unified care system for stray
+            animals. This is where local rescues step in. They provide trap-neuter-return (TNR) services to feral and
+            community cats, support medical treatment for these animals, and adopt out eligible friendly cats that are
+            found. Given the volume and lack of city services to support, these rescues cover hyper local areas. If you
+            find a cat in need, reach out to the rescue in the area the cat was found to help.
+            <br />
+            <br />
+            If you'd like to learn more about what rescues are doing to get more support from the city, check out the
+            following:
+        </p>
+        <ul>
+            <li><a href="https://bushwickstreetcats.org/" target="_blank">NYC Cat Rescue Alliance</a></li>
+            <li><a href="https://council.nyc.gov/press/2025/09/25/2979/" target="_blank">NYC City Council</a></li>
+        </ul>
+        <div>
+            <img src="images/adoption1.JPG" alt="adoptable cat" />
+            <img src="images/img_1408.jpg" alt="adoptable cat" />
+            <img src="images/img_1721.jpg" alt="adoptable cat" />
+        </div>
+        <footer>© Alyssa Craig 2025</footer>
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
+    </body>
+</html>
